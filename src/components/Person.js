@@ -45,6 +45,7 @@ const person = (props) => {
                 <p>I am  {props.name} and age = {props.age} </p>
                 <p>{props.children}</p>
                 <p onClick={props.passedMethod}> Clickable </p>
+                <p onClick={props.deletePerson}> Click To Delete Person </p>
                 <input type="text" onChange={props.nameChangeMethod} value={props.name}/>
             </div>
            )
